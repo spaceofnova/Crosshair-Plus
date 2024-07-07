@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crosshair Customizer</title>
+    <link rel="stylesheet" href="/styles/output.css" />
+  </head>
+  <body>
+    <div class="p-4 w-full h-full">
+    <div class="form-control">
+      <label class="label cursor-pointer">
+        <span class="label-text">Crosshair</span> 
+        <input type="checkbox" class="toggle" id="crosshairToggle" />
+      </label>
+    </div>
+
+    <label for="sizeSlider">
+      <span>Size:</span>
+      <input type="range" min="0" max="100" value="40" class="range range-primary" id="sizeSlider" />
+    </label>
+    <br />
+    <label class="form-control w-full max-w-xs">
+      <div class="label">
+        <span class="label-text">Custom Image URL</span>
+      </div>
+      <input type="text" placeholder="https://example.com/img.png" class="input input-bordered w-full max-w-xs" id="crosshairImgInput" />
+    </label>
+    <br />
+    <button id="reloadCrosshair" class="btn btn-primary w-full">Reload Crosshair</button>
+    <a href="help.html" class="btn w-full">Help</a>
+  </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
