@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spaceofnova/crosshair-plus.git"
+    "url": "git+https://github.com/spaceofnova/Crosshair-Plus.git"
   },
   "author": "Nova Studio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/spaceofnova/crosshair-plus/issues"
+    "url": "https://github.com/spaceofnova/Crosshair-Plus/issues"
   },
-  "homepage": "https://github.com/spaceofnova/crosshair-plus#readme",
+  "homepage": "https://github.com/spaceofnova/Crosshair-Plus#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   },
