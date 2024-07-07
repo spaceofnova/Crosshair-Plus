@@ -1,23 +1,20 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
 
   "manifest_version": 3,
   "name": "Crosshair Plus",
-  "version": "1.2.9",
+  "version": "1.3.1",
   "description": "Adds a custom crosshair to any game you want!",
-  "action": { 
+  "action": {
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "storage", 
-    "activeTab"
-  ],
+  "permissions": ["storage", "activeTab"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://*/*", "http://*/*"], 
+      "matches": ["https://*/*", "http://*/*"],
       "js": ["content_script.js"]
     }
   ],
@@ -27,7 +24,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": [ "images/*" ],
+      "resources": ["images/*"],
       "matches": ["https://*/*", "http://*/*"]
     }
   ]
